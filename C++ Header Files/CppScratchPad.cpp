@@ -1,3 +1,6 @@
+// 3 Steps Preprocessor process
+// 1. Preprocessor, 2. Compiler, 3. Linker
+#include "AnotherCppFile.h" // Preprocessor ---- Header file ------
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -8,12 +11,12 @@ using std::endl;
 // Code Files - has .cpp extensions
 // Header Files - has .h extensions and some .cpp extensions
 
-// -----Declarations-----
-void foo();
-void foo1();
-void foo2();
-void foo3();
-void foo4();
+//// -----Declarations----- should be in header file
+//void foo();
+//void foo1();
+//void foo2();
+//void foo3();
+//void foo4();
 
 void main()
 {
