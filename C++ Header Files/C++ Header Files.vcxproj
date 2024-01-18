@@ -130,6 +130,9 @@
     <ClCompile Include="AnotherCppFile.cpp" />
     <ClCompile Include="CppScratchPad.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnotherCppFile.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
